@@ -1,3 +1,3 @@
 let cadastro = false;
  
-document.getElementById
+document.getElementById("toggle").onclick
