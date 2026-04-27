@@ -33,7 +33,7 @@ document.getElementById("form-login").onsubmit= (e) => {
        localStorage.setItem(email, senha);
        mensagem.innerHTML = "<div class='sucesso'><p> Cadastrado com sucesso!</p></div>";
 } else {
-       let salva localStorage.getItem(email);
+     
        if (salva === senha) {
            mensagem.innerHTML = "<div class='sucesso'><p>Login com sucesso!</p></div>";
       } else {
