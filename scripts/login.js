@@ -28,7 +28,7 @@ document.getElementById("form-login").onsubmit= (e) => {
     mensagem.innerHTML = "<div class='erro'><p> Senha muito curta!</p></div>";
     return;
 }
-
+  
    if (cadastro) {
        localStorage.setItem(email, senha);
        mensagem.innerHTML = "<div class='sucesso'><p> Cadastrado com sucesso!</p></div>";
